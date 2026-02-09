@@ -1,0 +1,31 @@
+# Paper 1 — Ontology Matching Benchmark
+# Evaluated on Python 3.11 (Snellius, GCCcore-12.3.0)
+# Install: pip install -r requirements.txt
+
+# ── Core data science ────────────────────────────────────────────────────────
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.11.0              # Friedman test, stats (exp1, supplementary_analysis)
+
+# ── Embedding retrieval ──────────────────────────────────────────────────────
+sentence-transformers>=2.2.2   # 15 embedding models (exp1)
+faiss-cpu>=1.7.0               # FAISS IndexFlatIP exact search (exp1)
+
+# ── Baselines ────────────────────────────────────────────────────────────────
+rapidfuzz>=3.0.0               # RapidFuzz fuzzy-match baseline (exp1)
+rank_bm25>=0.2.2               # BM25Okapi baseline (run_bm25_sapbert.sh)
+
+# ── Statistical tests ────────────────────────────────────────────────────────
+scikit_posthocs>=0.9.0         # Nemenyi post-hoc test (supplementary_analysis)
+
+# ── NCBI Taxonomy lookup ─────────────────────────────────────────────────────
+biopython>=1.80                # Entrez API for TaxID resolution (exp2_mimic_prep)
+
+# ── Visualisation ────────────────────────────────────────────────────────────
+matplotlib>=3.5.0              # All Paper 1 figures (analyse_results)
+
+# ── Utilities ────────────────────────────────────────────────────────────────
+tqdm>=4.60.0                   # Progress bars (exp1, exp2)
+
+# ── Optional (BERTMapLt baseline — not yet run) ───────────────────────────────
+# deeponto>=0.9.0              # Required by run_bertmaplt.sh; needs Java + OWL API

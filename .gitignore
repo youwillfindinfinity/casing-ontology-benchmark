@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------------------
+# .gitignore — casing-sensitivity-ontology-alignment
+# Prepared for public Git + Zenodo (release-triggered) publication.
+# ---------------------------------------------------------------------------
+
+# --- OS / editor cruft -----------------------------------------------------
+.DS_Store
+Thumbs.db
+*~
+.*.swp
+.idea/
+.vscode/
+
+# --- Journal manuscript package (submitted to the journal, not part of the ---
+# --- public code/data release; the article is linked via .zenodo.json) ------
+submission_HISS/
+*.docx
+
+# --- Python ----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# --- Build / large binary artefacts ----------------------------------------
+*.faiss
+data/names.dmp
+index/*.faiss
+
+# ---------------------------------------------------------------------------
+# MIMIC-IV-derived artefacts — PhysioNet Data Use Agreement.
+# These MUST NOT be published openly (Git or Zenodo). They can be regenerated
+# by credentialed PhysioNet users with the provided scripts.
+# See submission_HISS/repo_scaffold/DATA_AVAILABILITY.md
+# ---------------------------------------------------------------------------
+OUTPUTS/*mimic*
+OUTPUTS/*_mimic_*
+OUTPUTS/paired_mimic_summary.json
+# MIMIC-derived files whose names do NOT contain "mimic":
+# exp3_combined_results.csv          -> RAG Q&A over MIMIC-IV organisms
+# error_analysis_biosminilm_setA.csv -> raw MIMIC-IV Set A ALL-CAPS query strings
+OUTPUTS/exp3_combined_results.csv
+OUTPUTS/error_analysis_biosminilm_setA.csv
+# NOTE: OUTPUTS/avg_ranks_neural_3datasets_hits@1.csv and
+#       OUTPUTS/avg_ranks_neural_4datasets_hits@1.csv are cross-dataset rank
+#       aggregates that incorporate MIMIC results. They expose no MIMIC
+#       strings, but if your venue/DUA reading treats them as MIMIC-derived,
+#       uncomment the next two lines:
+# OUTPUTS/avg_ranks_neural_3datasets_hits@1.csv
+# OUTPUTS/avg_ranks_neural_4datasets_hits@1.csv
+#
+# UNRESOLVED — author must confirm provenance before public release:
+#   The exp3b "wound" RAG artefacts below carry ground-truth answers in MIMIC-IV
+#   microbiologyevents format (e.g. "STAPH AUREUS COAG +"). If that corpus was
+#   derived from MIMIC-IV, uncomment these lines (they are paper-2 / RAG files):
+# OUTPUTS/exp3b_wound_corpus_docs.txt
+# OUTPUTS/exp3b_wound_corpus_stats.csv
+# OUTPUTS/exp3b_wound_questions.csv
+# OUTPUTS/exp3b_wound_rag_results.csv
+# OUTPUTS/exp3b_ablation_results.csv
