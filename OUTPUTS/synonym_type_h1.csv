@@ -1,0 +1,17 @@
+model,synonym,equivalent name,common name,genbank common name,overall
+intfloat/e5-large-v2,0.2942,0.6552,0.0349,0.048,0.3214
+intfloat/multilingual-e5-large,0.2551,0.6904,0.0279,0.032,0.3098
+intfloat/e5-small-v2,0.2573,0.632,0.0219,0.064,0.296
+pritamdeka/S-PubMedBert-MS-MARCO,0.2142,0.592,0.0279,0.024,0.2642
+BAAI/bge-base-en-v1.5,0.1644,0.6152,0.0149,0.02,0.2438
+BM25,0.2484,0.4568,0.006,0.008,0.2394
+NeuML/pubmedbert-base-embeddings,0.1867,0.5144,0.0139,0.02,0.2276
+sentence-transformers/all-MiniLM-L6-v2,0.1924,0.4928,0.0169,0.02,0.2253
+juanpablomesa/all-mpnet-base-v2-bioasq-matryoshka,0.168,0.4864,0.0169,0.02,0.212
+menadsa/BioS-MiniLM,0.1569,0.4312,0.0159,0.024,0.1923
+sentence-transformers/all-mpnet-base-v2,0.1489,0.4296,0.0139,0.02,0.1874
+medicalai/ClinicalBERT,0.116,0.2648,0.005,0.0,0.1256
+RapidFuzz,0.0476,0.1736,0.005,0.004,0.0694
+emilyalsentzer/Bio_ClinicalBERT,0.0613,0.1128,0.002,0.0,0.0591
+ETE3,0.032,0.0432,0.004,0.004,0.0276
+cambridgeltl/SapBERT-from-PubMedBERT-fulltext,0.0027,0.0256,0.0,0.0,0.008

@@ -1,0 +1,14 @@
+model,model_full,avg_rank,avg_score
+pubmedbert-base-embeddings,NeuML/pubmedbert-base-embeddings,3.667,0.8629
+BioS-MiniLM,menadsa/BioS-MiniLM,3.667,0.8761
+e5-small-v2,intfloat/e5-small-v2,4.667,0.8771
+e5-large-v2,intfloat/e5-large-v2,4.667,0.8639
+S-PubMedBert-MS-MARCO,pritamdeka/S-PubMedBert-MS-MARCO,4.667,0.8522
+all-MiniLM-L6-v2,sentence-transformers/all-MiniLM-L6-v2,5.0,0.8541
+all-mpnet-base-v2-bioasq-matryoshka,juanpablomesa/all-mpnet-base-v2-bioasq-matryoshka,5.667,0.8377
+multilingual-e5-large,intfloat/multilingual-e5-large,5.667,0.8119
+all-mpnet-base-v2,sentence-transformers/all-mpnet-base-v2,7.333,0.8132
+bge-base-en-v1.5,BAAI/bge-base-en-v1.5,10.0,0.6848
+ClinicalBERT,medicalai/ClinicalBERT,11.667,0.3359
+Bio_ClinicalBERT,emilyalsentzer/Bio_ClinicalBERT,12.0,0.2691
+SapBERT-from-PubMedBERT-fulltext,cambridgeltl/SapBERT-from-PubMedBERT-fulltext,12.333,0.0773
