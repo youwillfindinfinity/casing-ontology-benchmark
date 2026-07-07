@@ -52,12 +52,11 @@ OUTPUTS/error_analysis_biosminilm_setA.csv
 # OUTPUTS/avg_ranks_neural_3datasets_hits@1.csv
 # OUTPUTS/avg_ranks_neural_4datasets_hits@1.csv
 #
-# UNRESOLVED — author must confirm provenance before public release:
-#   The exp3b "wound" RAG artefacts below carry ground-truth answers in MIMIC-IV
-#   microbiologyevents format (e.g. "STAPH AUREUS COAG +"). If that corpus was
-#   derived from MIMIC-IV, uncomment these lines (they are paper-2 / RAG files):
-# OUTPUTS/exp3b_wound_corpus_docs.txt
-# OUTPUTS/exp3b_wound_corpus_stats.csv
-# OUTPUTS/exp3b_wound_questions.csv
-# OUTPUTS/exp3b_wound_rag_results.csv
-# OUTPUTS/exp3b_ablation_results.csv
+# exp3b RAG artefacts belong to the separate wound-RAG study and carry MIMIC-IV-derived
+# aggregates (organism labels in microbiologyevents format, e.g. "STAPH AUREUS COAG +").
+# They are not part of this benchmark and are excluded from the public release.
+OUTPUTS/exp3b_wound_corpus_docs.txt
+OUTPUTS/exp3b_wound_corpus_stats.csv
+OUTPUTS/exp3b_wound_questions.csv
+OUTPUTS/exp3b_wound_rag_results.csv
+OUTPUTS/exp3b_ablation_results.csv
