@@ -1,0 +1,35 @@
+{
+  "title": "Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based Biomedical Ontology Alignment — Benchmark code and derived artefacts (13 open-weight models on NCBI Taxonomy, microbiome and MIMIC-IV)",
+  "upload_type": "dataset",
+  "description": "<p>Benchmark code, prebuilt FAISS indices, and openly-redistributable derived results accompanying the article &ldquo;Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based Biomedical Ontology Alignment&rdquo; (submitted to Health Information Science and Systems).</p><p>Thirteen open-weight sentence-transformer models plus three baselines (BM25, RapidFuzz, ETE3) are evaluated for zero-shot retrieval of organism names against the full NCBI Taxonomy (2.69M canonical names), with input casing isolated as a controlled variable via a matched-query design (n=377). Using the matched subset, 12 of 16 systems are casing-invariant (delta Hits@1 = 0.000, including the case-insensitive ETE3 control); casing is the dominant failure mode only for case-sensitive systems (RapidFuzz, ClinicalBERT, Bio_ClinicalBERT). SapBERT fails structurally due to species-epithet collapse.</p><p>MIMIC-IV-derived query sets and per-query result files are NOT included here: they are governed by the PhysioNet Data Use Agreement and are available to credentialed PhysioNet users, who can regenerate them with the provided scripts. See DATA_AVAILABILITY.md.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "biomedical ontology alignment",
+    "entity normalisation",
+    "sentence transformers",
+    "NCBI Taxonomy",
+    "MIMIC-IV",
+    "casing sensitivity",
+    "embedding benchmarking",
+    "dense retrieval",
+    "clinical NLP"
+  ],
+  "creators": [
+    { "name": "Bumbuc, Roland V.", "orcid": "0009-0004-9173-9798", "affiliation": "Amsterdam UMC, location VUmc, Department of Plastic, Reconstructive and Hand Surgery, Amsterdam Movement Sciences (AMS) Institute, Amsterdam, The Netherlands" }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://physionet.org/content/mimiciv/3.1/",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/",
+      "relation": "references",
+      "resource_type": "dataset"
+    }
+  ],
+  "notes": "Code is released under MIT; data artefacts under CC-BY-4.0; NCBI Taxonomy names.dmp is public domain. MIMIC-IV-derived artefacts are excluded per the PhysioNet DUA.",
+  "version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite both the article and the archived dataset."
+title: "Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based Biomedical Ontology Alignment (benchmark code and derived artefacts)"
+type: dataset
+version: 1.0.0
+# doi and date-released are added after the first Zenodo release mints the concept DOI.
+license: CC-BY-4.0
+url: "https://github.com/youwillfindinfinity/casing-ontology-benchmark"
+repository-code: "https://github.com/youwillfindinfinity/casing-ontology-benchmark"
+keywords:
+  - biomedical ontology alignment
+  - entity normalisation
+  - sentence transformers
+  - NCBI Taxonomy
+  - MIMIC-IV
+  - casing sensitivity
+  - embedding benchmarking
+authors:
+  - given-names: "Roland V."
+    family-names: "Bumbuc"
+    orcid: "https://orcid.org/0009-0004-9173-9798"
+    email: "r.v.bumbuc@uva.nl"
+    affiliation: "Amsterdam UMC, location VUmc, Department of Plastic, Reconstructive and Hand Surgery, Amsterdam Movement Sciences (AMS) Institute, Amsterdam, The Netherlands"
+preferred-citation:
+  type: article
+  title: "Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based Biomedical Ontology Alignment"
+  journal: "Health Information Science and Systems"
+  year: "{{YEAR}}"
+  doi: "{{ARTICLE_DOI}}"
+  authors:
+    - given-names: "Roland V."
+      family-names: "Bumbuc"
