@@ -4,8 +4,7 @@ Benchmark code and derived artefacts for:
 
 > **Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based
 > Biomedical Ontology Alignment.**
-> Roland V. Bumbuc. *Health Information Science and Systems*, {{YEAR}}.
-> DOI: {{ARTICLE_DOI}}
+> Roland V. Bumbuc. Manuscript submitted to *Health Information Science and Systems* (2026); under review.
 
 [![DOI](https://zenodo.org/badge/1294101912.svg)](https://doi.org/10.5281/zenodo.21268379)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
@@ -127,8 +126,9 @@ make reproduce      # runs supplementary_analysis + regen_matched_figures
 
 ## Citing
 
-See [`CITATION.cff`](CITATION.cff). If you use the benchmark artefacts, please cite both
-the article ({{ARTICLE_DOI}}) and the archived dataset (10.5281/zenodo.21268379).
+See [`CITATION.cff`](CITATION.cff). If you use the benchmark artefacts, please cite the
+archived dataset (10.5281/zenodo.21268379). The accompanying manuscript is currently under
+review at *Health Information Science and Systems*; citation details will be added on acceptance.
 
 ## License
 
