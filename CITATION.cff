@@ -26,8 +26,8 @@ preferred-citation:
   type: article
   title: "Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based Biomedical Ontology Alignment"
   journal: "Health Information Science and Systems"
-  year: "{{YEAR}}"
-  doi: "{{ARTICLE_DOI}}"
+  year: 2026
+  notes: "Manuscript submitted; under review. Article DOI and final citation details will be added on acceptance."
   authors:
     - given-names: "Roland V."
       family-names: "Bumbuc"
