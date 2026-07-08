@@ -3,7 +3,8 @@ message: "If you use this benchmark, please cite both the article and the archiv
 title: "Who Actually Breaks on ALL-CAPS? Casing Sensitivity in Embedding-Based Biomedical Ontology Alignment (benchmark code and derived artefacts)"
 type: dataset
 version: 1.0.0
-# doi and date-released are added after the first Zenodo release mints the concept DOI.
+doi: "10.5281/zenodo.21268379"
+date-released: "2026-07-08"
 license: CC-BY-4.0
 url: "https://github.com/youwillfindinfinity/casing-ontology-benchmark"
 repository-code: "https://github.com/youwillfindinfinity/casing-ontology-benchmark"

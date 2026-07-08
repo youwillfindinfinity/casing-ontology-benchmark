@@ -18,7 +18,7 @@ paper (Table 6) true rather than aspirational.
 | All evaluation, preprocessing, statistics, and plotting code | MIT | `scripts/` |
 | NCBI Taxonomy `names.dmp` reference (2.69 M canonical names) | Public domain | NCBI FTP (not redistributed; download script provided) |
 | FAISS index build script + SHA-256 checksums | MIT | `index/` |
-| Prebuilt FAISS indices (per model) | CC-BY-4.0 | Zenodo DOI {{ZENODO_DOI}} |
+| Prebuilt FAISS indices (per model) | CC-BY-4.0 | Zenodo DOI 10.5281/zenodo.21268379 |
 | **synonym_setB** (4,750 NCBI synonym→canonical pairs) | Public domain (derived from `names.dmp`) | `OUTPUTS/` |
 | **microbiome** self-retrieval set (500 taxa, Fujita 2023) | CC-BY-4.0 | `OUTPUTS/` |
 | Aggregate per-model result tables (Hits@k means, bootstrap CIs, Cliff's δ, Nemenyi) | CC-BY-4.0 | `OUTPUTS/` |
@@ -46,7 +46,7 @@ regenerate every MIMIC artefact from raw MIMIC-IV v3.1 by running
 
 ## FAIR mapping
 
-- **Findable** — public artefacts carry a persistent Zenodo DOI ({{ZENODO_DOI}});
+- **Findable** — public artefacts carry a persistent Zenodo DOI (10.5281/zenodo.21268379);
   the article links to it.
 - **Accessible** — open artefacts are downloadable without registration; MIMIC-derived
   artefacts are accessible to any credentialed PhysioNet user via the same scripts.

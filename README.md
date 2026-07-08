@@ -7,7 +7,7 @@ Benchmark code and derived artefacts for:
 > Roland V. Bumbuc. *Health Information Science and Systems*, {{YEAR}}.
 > DOI: {{ARTICLE_DOI}}
 
-[![DOI](https://zenodo.org/badge/DOI/{{ZENODO_DOI}}.svg)](https://doi.org/{{ZENODO_DOI}})
+[![DOI](https://zenodo.org/badge/1294101912.svg)](https://doi.org/10.5281/zenodo.21268379)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-blue.svg)](LICENSE)
 
 This repository benchmarks 13 open-weight sentence-transformer models plus three
@@ -34,7 +34,6 @@ NCBI Taxonomy regardless of casing (species-epithet collapse).
 ├── CITATION.cff                  ← how to cite
 ├── .zenodo.json                  ← Zenodo deposition metadata
 ├── DATA_AVAILABILITY.md          ← what is open vs. PhysioNet-credentialed (DUA)
-├── PLACEHOLDERS.md               ← fill-in checklist (DOI, URL, authors) before publishing
 ├── Makefile                      ← `make reproduce` and other entry points
 ├── requirements.txt              ← pinned Python dependencies
 ├── scripts/
@@ -84,7 +83,7 @@ python scripts/results/exp1_embedding_benchmark.py --build-index --model all-Min
 
 The 2.69 M-name NCBI Taxonomy `names.dmp` is public domain
 (<https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/>). A prebuilt index per model
-(~8.2 GB for 768-d) is archived on Zenodo (DOI {{ZENODO_DOI}}); verify with
+(~8.2 GB for 768-d) is archived on Zenodo (DOI 10.5281/zenodo.21268379); verify with
 `index/CHECKSUMS.sha256`.
 
 ### 3. Run the benchmark
@@ -129,7 +128,7 @@ make reproduce      # runs supplementary_analysis + regen_matched_figures
 ## Citing
 
 See [`CITATION.cff`](CITATION.cff). If you use the benchmark artefacts, please cite both
-the article ({{ARTICLE_DOI}}) and the archived dataset ({{ZENODO_DOI}}).
+the article ({{ARTICLE_DOI}}) and the archived dataset (10.5281/zenodo.21268379).
 
 ## License
 
